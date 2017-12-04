@@ -1378,4 +1378,4 @@ God and continues in supplications and prayers night and day,</p>
 process.loading();
 setTimeout(function(){
 	process.menu();
-},500);
+},5000);
