@@ -1,0 +1,101 @@
+/* 
+Komentar: Razloženo na: http://ruel.me/blog/2011/02/03/using-google-fonts-locally/
+Multiple fonts: http://stackoverflow.com/questions/4872592/multiple-font-face-in-css
+*/
+
+body 
+{	
+	font-size: 17px; 
+	color: #222222;
+	width: 90%;
+	/* Komentar: spodnji del je za centriranje vsebine na strani */
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 10px;
+	margin-bottom: 30px;
+	background-color: #FBF0D9;
+	}
+
+/* 
+Komentar: navaden p velja za vse <p> elemente v HTML-ju 
+*/
+
+img 
+{
+	border: 1px solid;
+	border-color: gray;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	max-height: 400px;
+   max-width: 400px;
+	height: auto;
+	padding: 3px;
+	display: block;
+	}
+
+p 
+{
+	margin-top: 3px;
+	margin-bottom: 25px;
+	}
+
+p.bold
+{
+	font-family: 'Oswald';
+	font-size: 1.3em;
+}
+
+h1 
+{
+	font-family: 'Oswald';	
+	font-size: 1.8em;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	border-bottom-style: solid;
+   border-bottom-width: 1px;
+   border-bottom-color: gray;
+	}
+
+h2
+{
+	margin-bottom: 8px;
+	font-size: 20px;
+	border-bottom-style: dotted;;
+   border-bottom-width: 1px;
+   border-bottom-color: gray;
+}
+
+ul.b 
+{
+	list-style-type:square;
+	}
+
+ul.numbers
+{
+   list-style-type: decimal;
+   }
+   
+table, th, td
+{
+ margin-top: 20px; 
+ border: 1px solid gray;
+ border-collapse: collapse;
+ padding: 5px;
+ margin-left: auto;
+ margin-right: auto;
+}
+   
+/* maybe
+#nutrition-table
+{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+*/
+
